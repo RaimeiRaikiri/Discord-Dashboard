@@ -17,11 +17,14 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: start;
+    gap: 10px;
     align-items: center;
     border: 1px solid red;
+    background-color: rgb(128, 128, 128, .1);
 }
 #disc-icon {
+    margin-top: 20px;
     background-image: url(./discord-icon.svg);
 }
 #sidebar > button {
@@ -29,12 +32,14 @@ body {
     background-size: 40px 40px;
     height: 60px;
     width: 60px;
-    border: 0.5px solid grey;
 }
 #sidebar > button:hover {
     transition: 0.25s;
     background-color: rgb(50,0,255);
     border-radius: 20px;
+}
+hr {
+    width: 70%;
 }
 
 nav {
