@@ -46,7 +46,7 @@ hr {
 /* Nav bar section */
 nav {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
@@ -54,6 +54,16 @@ nav {
     width: 70vw;
     height: 70px;
     border: 1px solid gold;
+}
+#left-nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 button {
     background-image: url(./inbox-icon.svg);
