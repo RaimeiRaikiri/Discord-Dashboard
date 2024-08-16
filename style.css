@@ -16,3 +16,13 @@ body {
 
     border: 1px solid red;
 }
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 80vw;
+    right: 0;
+    height: 10vh;
+    border: 1px solid gold;
+}
