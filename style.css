@@ -50,8 +50,8 @@ nav {
     align-items: center;
     position: fixed;
     top: 0;
-    width: 70vw;
     right: 0;
+    width: 70vw;
     height: 70px;
     border: 1px solid gold;
 }
@@ -83,4 +83,41 @@ input[type='search']{
     border-radius: 4px;
     padding: 4px;
     margin-right: 20px;
+}
+
+/* Dm Section */
+#dm-section {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 365px;
+    height: 100vh;
+    border: 1px solid black;
+    left:90px;
+}
+#search-friends {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: clamp(70px,5vh,70px);
+    border: 1px solid green;
+}
+#search-friends > input {
+    width: 300px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#friends-list {
+    width: 100%;
+    height: auto;
+    border:1px solid salmon;
+    overflow: scroll;
+}
+/* placeholder boxes */
+#style {
+    width:200px;
+    height: 200px;
+    border: 1px solid red;
 }
