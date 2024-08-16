@@ -13,7 +13,7 @@ body {
     left: 0;
 
     height: 100vh;
-    width: 10vw;
+    width: 90px;
 
     display: flex;
     flex-direction: column;
@@ -29,9 +29,10 @@ body {
 }
 #sidebar > button {
     border-radius: 50%;
-    background-size: 40px 40px;
-    height: 60px;
-    width: 60px;
+    background-size: 35px 35px;
+    height: 55px;
+    width: 55px;
+    margin-right: 0;
 }
 #sidebar > button:hover {
     transition: 0.25s;
@@ -39,36 +40,37 @@ body {
     border-radius: 20px;
 }
 hr {
-    width: 70%;
+    width: 40%;
 }
 
+/* Nav bar section */
 nav {
     display: flex;
     justify-content: end;
     align-items: center;
     position: fixed;
     top: 0;
-    width: 80vw;
+    width: 70vw;
     right: 0;
-    height: 10vh;
+    height: 70px;
     border: 1px solid gold;
 }
 button {
+    background-image: url(./inbox-icon.svg);
     border: none;
-    width:40px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     background-color: white;
+    margin-right: 20px;
 }
 #help {
     background-image: url(./help-icon.svg);
-    margin-right: 20px;
 }
 #inbox {
     background-image: url(./inbox-icon.svg);
-    margin-right: 20px;
 }
 input[type='search']{
     background-image: url(./search-icon.svg);
