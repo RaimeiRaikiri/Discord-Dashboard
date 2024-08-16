@@ -35,8 +35,8 @@ nav {
 }
 button {
     border: none;
-    width:50px;
-    height: 50px;
+    width:40px;
+    height: 30px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -44,8 +44,21 @@ button {
 }
 #help {
     background-image: url(./help-icon.svg);
-    margin-right: 10px;
+    margin-right: 20px;
 }
 #inbox {
     background-image: url(./inbox-icon.svg);
+    margin-right: 20px;
+}
+input[type='search']{
+    background-image: url(./search-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 20px;
+    background-color: rgb(220,220,220);
+    background-position: right;
+
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 4px;
+    margin-right: 20px;
 }
