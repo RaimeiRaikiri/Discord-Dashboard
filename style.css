@@ -47,26 +47,32 @@ hr {
 nav {
     display: flex;
     justify-content: space-between;
+    flex: 1 5 1;
     align-items: center;
     position: fixed;
     top: 0;
     right: 0;
-    width: clamp(200px,70vw,70vw);
-    height: 70px;
+    width: calc(100vw - 390px);
+    height: 60px;
     border: 1px solid gold;
 }
 #left-nav {
     display: flex;
+    position: absolute;
     align-items: center;
     justify-content: start;
-    width: clamp(0px,40vw,50vw);
-    
+    width: 20vw;
+    z-index: -1;
+
 }
 #right-nav {
-    position: sticky;
+    position: fixed;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: end;
+    z-index: 1;
+
 }
 button {
     background-image: url(./inbox-icon.svg);
@@ -77,13 +83,19 @@ button {
     background-size: contain;
     background-position: center;
     background-color: white;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #help {
     background-image: url(./help-icon.svg);
 }
 #inbox {
     background-image: url(./inbox-icon.svg);
+    padding-left: 40px;
+}
+#hide-profile {
+    background-image: url(./ui-user-profile.svg);
+    padding-left: 40px;
 }
 input[type='search']{
     background-image: url(./search-icon.svg);
@@ -95,12 +107,12 @@ input[type='search']{
     border: 1px solid grey;
     border-radius: 4px;
     padding: 4px;
-    margin-right: 20px;
 }
 img {
     width: 35px;
     height: 35px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 #vr {
     height:30px;
@@ -115,7 +127,7 @@ p {
     display: flex;
     flex-direction: column;
     position: fixed;
-    width: 365px;
+    width: 300px;
     height: 100vh;
     border: 1px solid black;
     left:90px;
@@ -130,10 +142,11 @@ p {
     border: 1px solid green;
 }
 #search-friends > input {
-    width: 300px;
+    width: 280px;
+    height: 30px;
     margin-right: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-image: none;
 }
 #friends-list {
