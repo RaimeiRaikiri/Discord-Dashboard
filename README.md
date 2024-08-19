@@ -12,7 +12,7 @@ Made using vanilla:
 
 I chose discord as a target of replication as it seemed quite complex at first glance but feasible with vanilla HTML, CSS and Javascript. They also have chrome dev tools disabled so without more research I am unable to just copy the code from the site itself, training my ability to replicate a design just from seeing it.
 
-An idea of the general layout,:
+An idea of the general layout:
 
 ![Discord General layout](./discord-template.svg "Discord Layout")
 
