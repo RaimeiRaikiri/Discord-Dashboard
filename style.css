@@ -21,11 +21,11 @@ body {
     gap: 10px;
     align-items: center;
     border: 1px solid red;
-    background-color: rgb(226,229,232);
+    background-color: rgb(226,229,232); 
 }
 #disc-icon {
     margin-top: 20px;
-    background-image: url(./discord-icon.svg);
+    background-image: url(./imgs/discord-icon.svg);
 }
 #sidebar > button {
     border-radius: 50%;
@@ -75,7 +75,7 @@ nav {
 
 }
 button {
-    background-image: url(./inbox-icon.svg);
+    background-image: url(./imgs/inbox-icon.svg);
     border: none;
     width: 35px;
     height: 35px;
@@ -87,18 +87,18 @@ button {
     padding-right: 20px;
 }
 #help {
-    background-image: url(./help-icon.svg);
+    background-image: url(./imgs/help-icon.svg);
 }
 #inbox {
-    background-image: url(./inbox-icon.svg);
+    background-image: url(./imgs/inbox-icon.svg);
     padding-left: 40px;
 }
 #hide-profile {
-    background-image: url(./ui-user-profile.svg);
+    background-image: url(./imgs/ui-user-profile.svg);
     padding-left: 40px;
 }
 input[type='search']{
-    background-image: url(./search-icon.svg);
+    background-image: url(./imgs/search-icon.svg);
     background-repeat: no-repeat;
     background-size: 15px 20px;
     background-color: rgb(226,229,232);
