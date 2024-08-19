@@ -14,7 +14,7 @@ I chose discord as a target of replication as it seemed quite complex at first g
 
 An idea of the general layout:
 
-![Discord General layout](./discord-template.svg "Discord Layout")
+![Discord General layout](./imgs/discord-template.svg "Discord Layout")
 
 Note that this image was not used as the basis for the website, how the website appears on my personal discord account was used so there maybe some discrepancies.
 
